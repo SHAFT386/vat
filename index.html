@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEGE MODERN APPLIANCES - Quality Electronics & Appliances</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +256 700 559 785</span>
+                    <span><i class="fas fa-envelope"></i> segietonie@gmail.com</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Luwumu Street Universal House</span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/segie_appliances_and_beyond" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://vm.tiktok.com/ZMSMJYXvj/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/256700559785" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>SIEGE MODERN APPLIANCES</h1>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premium Appliances & Electronics</h1>
+                <p>Quality products for your home and office</p>
+                <a href="#products" class="btn">View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid" id="product-container">
+                <!-- Products will be loaded dynamically -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading products...</p>
+                </div>
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About SIEGE MODERN APPLIANCES</h2>
+                <p>Welcome to SIEGE MODERN APPLIANCES, your premier destination for high-quality electronics and home appliances in Uganda. We offer a wide range of products from top brands.</p>
+                <p>Our mission is to provide our customers with reliable products that enhance their lifestyle while delivering exceptional customer service. Whether you're looking for the latest television, kitchen appliances, or audio systems, we have something for everyone.</p>
+                <p>Visit our store at Luwumu Street Universal House or contact us today to learn more about our products and services.</p>
+            </div>
+            <div class="about-image">
+                <img src="1.jpg" alt="Our Store">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Luwumu Street Universal House</p>
+                    <p><i class="fas fa-phone"></i> +256 700 559 785</p>
+                    <p><i class="fas fa-envelope"></i> segietonie@gmail.com</p>
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/segie_appliances_and_beyond" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://vm.tiktok.com/ZMSMJYXvj/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/256700559785" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="message-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <div class="fab fab-main">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="fab-options">
+            <a href="tel:+256700559785" class="fab-option" data-tooltip="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="https://wa.me/256700559785" class="fab-option" data-tooltip="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/segie_appliances_and_beyond" class="fab-option" data-tooltip="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://vm.tiktok.com/ZMSMJYXvj/" class="fab-option" data-tooltip="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>SIEGE MODERN APPLIANCES</h4>
+                    <p>Your trusted source for quality electronics and home appliances in Uganda.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Luwumu Street Universal House</li>
+                        <li><i class="fas fa-phone"></i> +256 700 559 785</li>
+                        <li><i class="fas fa-envelope"></i> segietonie@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/segie_appliances_and_beyond" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://vm.tiktok.com/ZMSMJYXvj/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/256700559785" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SIEGE MODERN APPLIANCES. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
